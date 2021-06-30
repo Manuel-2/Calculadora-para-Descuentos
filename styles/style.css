@@ -1,0 +1,11 @@
+html{
+    font-size: 62.5%;
+}
+
+:root{
+    --var-color:#aaaaaa; 
+}
+body{
+    /* esto es temporal, borralo despues xd */
+    font-size: 1.8rem;
+}

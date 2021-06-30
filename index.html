@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Descuentos</title>
+    <link rel="stylesheet" href="./styles/normalize.css">
+    <link rel="stylesheet" href="./styles/style.css">
+</head>
+<body>
+    <main class="main">
+        <div class="calculator">
+
+            <div class="calculator-header">
+                <h2>Titulo si</h2>
+                <p>descripción</p>
+            </div>
+
+            <div class="calculator-inputs">
+                <label for="price-input">
+                    <p>input info</p>
+                    <input type="number" id="price-input">
+                </label>
+                <label for="discount-input">
+                    <p>input info</p>
+                    <input type="range" min="0" max="100" id="discount-input" >
+                </label>
+                <input type="button" onclick="" id="calculate-input" value="calcular">
+            </div>
+
+            <div class="calculator-results">
+                <div class="calculator-result-total-container">
+                    <p class="result-total--description">precio con el descuento</p>
+
+                    <!-- elemento a modificar con js -->
+                    <p class="result-total--value" id="result-total">844.00</p>
+                </div>
+
+                <!-- elemento a modificar con js -->
+                <p class="result-amount-saved" id="result-saved">dinero ahorrado: 120.00</p>
+            </div>
+        </div>
+    </main>
+    <footer>
+
+    </footer>
+    <script src="./code.js"></script>
+</body>
+</html>
