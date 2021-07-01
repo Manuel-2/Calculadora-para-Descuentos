@@ -21,7 +21,7 @@ function CalculateDiscount() {
     //modify to show the results
     totalOutputText.innerText = total;
     //darle un formato al texto
-    savedOutputText.innerText = moneySaved;
+    savedOutputText.innerText = `Dinero ahorrado: ${moneySaved}`;
 
 
 }
